@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: "Shrikhand";
+  src: url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+}
+.header__home {
+  text-align: center;
+  font-family: "Shrikhand", sans-serif;
+}
+.header__home i {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  text-align: center;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
