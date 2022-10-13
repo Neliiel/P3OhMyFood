@@ -1,0 +1,11 @@
+btn {
+    background: $color-gradient;
+    padding: 12px;
+    border-radius: 20px;
+
+    a {
+        text-decoration: none;
+        color: $color-btn;
+        font-size: 13px;
+    }
+}
