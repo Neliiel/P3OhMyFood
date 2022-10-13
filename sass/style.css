@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+h2 {
+  font-size: 21px;
+}
+
 @font-face {
   font-family: "Shrikhand";
   src: url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
@@ -59,9 +63,38 @@ body {
   background-color: rgb(248, 248, 248);
 }
 .reserv h2 {
-  font-size: 21px;
   padding: 0px 20px;
 }
 .reserv p {
   margin-bottom: 40px;
+}
+
+#function {
+  padding: 20px;
+}
+
+.function__list {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(248, 248, 248);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 5px 5px 2px rgb(240, 240, 240);
+}
+.function__list--number {
+  text-align: center;
+  font-size: 12px;
+  margin-left: -25px;
+  background-color: #9356DC;
+  color: #FFF;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.function__list--icon {
+  color: rgb(137, 137, 137);
+}
+.function__list--txt {
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
