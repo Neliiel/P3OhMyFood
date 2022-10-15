@@ -1,8 +1,17 @@
 .header__home {
-        text-align: center;
-        font-family: 'Shrikhand', sans-serif;
+    text-align: center;
 
-        i {
-            display: none;
-        }
+    i {
+        display: none;
     }
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 15%;
+
+    i{
+        padding-left: 20px;
+    }
+}

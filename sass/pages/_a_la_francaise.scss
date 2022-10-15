@@ -1,0 +1,59 @@
+.banner img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+#menu {
+    position: absolute;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -40px;
+    background-color: $background-color2;
+}
+
+.menu__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Shrikhand', sans-serif;
+    margin: 0px 15px;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-color3;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 4px;
+
+    &__left {
+        margin: 0px 10px;
+
+        p {
+        font-size: 13px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        margin: 0px 10px;
+    
+        p {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+
