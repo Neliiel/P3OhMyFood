@@ -160,6 +160,7 @@ footer li a {
   background-color: #FFF;
   border-radius: 20px;
   margin-bottom: 20px;
+  box-shadow: 0px 5px 5px 2px rgb(240, 240, 240);
 }
 .card__img img {
   -o-object-fit: cover;
@@ -191,11 +192,9 @@ footer li a {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  position: relative;
 }
 
 .menu {
-  position: absolute;
   width: 100%;
   border-radius: 20px 20px 0px 0px;
   margin-top: -40px;
