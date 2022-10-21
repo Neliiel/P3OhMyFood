@@ -41,12 +41,23 @@
 
 .function__list {
     display: flex;
+    align-items: center;
     gap: 20px;
     background-color: $background-color2;
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: $shadow;
+
+    &:hover {
+        background-color: $background-function;
+        transition: 150ms;
+    }
+
+    &:hover .function__list--icon {
+        color: $color-primary;
+        transition: 150ms;
+    }
 
     &--number {
         text-align: center;

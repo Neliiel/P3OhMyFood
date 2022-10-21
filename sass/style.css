@@ -129,12 +129,21 @@ footer li a {
 
 .function__list {
   display: flex;
+  align-items: center;
   gap: 20px;
   background-color: rgb(248, 248, 248);
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0px 5px 5px 2px rgb(240, 240, 240);
+}
+.function__list:hover {
+  background-color: #e6d7f8;
+  transition: 150ms;
+}
+.function__list:hover .function__list--icon {
+  color: #9356DC;
+  transition: 150ms;
 }
 .function__list--number {
   text-align: center;
