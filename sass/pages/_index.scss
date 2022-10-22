@@ -124,5 +124,20 @@
         &--right {
             padding: 20px;
         }
+
+        &--right .fa-heart {
+            position: relative;
+            background-color: transparent;
+            font-size: 20px;
+        }
+
+        &--right .fa-heart:hover {
+            animation: heart .8s 0s forwards;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 }
