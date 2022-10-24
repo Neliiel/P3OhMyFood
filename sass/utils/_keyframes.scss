@@ -1,4 +1,4 @@
-@keyframes heart {
+@keyframes heart_restaurant {
     0% {
         background: linear-gradient(0deg, $color-secondary, $color-primary 0%, white 0%);
         -webkit-background-clip: text;
@@ -61,6 +61,75 @@
     }
     100% {
         background: linear-gradient(0deg, $color-secondary, $color-primary 100%, white 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+}
+
+@keyframes heart_menu {
+    0% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 0%, $background-color2 0%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    10% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 10%, $background-color2 10%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    20% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 20%, $background-color2 20%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    30% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 30%, $background-color2 30%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    40% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 40%, $background-color2 40%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    50% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 50%, $background-color2 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    60% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 60%, $background-color2 60%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    70% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 70%, $background-color2 70%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    80% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 80%, $background-color2 80%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    90% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 90%, $background-color2 90%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    100% {
+        background: linear-gradient(0deg, $color-secondary, $color-primary 100%, $background-color2 100%);
         -webkit-background-clip: text;
         color: transparent;
         font-weight: bold;
