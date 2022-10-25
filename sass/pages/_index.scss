@@ -141,3 +141,49 @@
         color: black;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .restaurants {
+        display: flex;
+    }
+
+    .card {
+        margin: 5px;
+    
+        &__img img{
+        height: 120px;
+        }
+
+        &__txt {
+            line-height: 20px;
+        }
+    }
+
+    footer nav ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .logo__footer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .function {
+        display: flex;
+        justify-content: space-around;
+
+        &__list {
+            width: 25%;
+        }
+    }
+}
