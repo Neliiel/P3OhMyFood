@@ -47,6 +47,7 @@
     border-radius: 20px;
     padding: 20px;
     box-shadow: $shadow;
+    cursor: pointer;
 
     &:hover {
         background-color: $background-function;
@@ -62,6 +63,7 @@
         text-align: center;
         font-size: 12px;
         margin-left: -25px;
+        padding: 5px 2px 0px 2px;
         background-color: $color-primary;
         color: $color-btn;
         height: 20px;
@@ -74,7 +76,7 @@
     }
 
     &--txt {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
     }
 }
@@ -106,8 +108,8 @@
 
         &--new {
             position: absolute;
-            right: 20px;
-            top: 15px;
+            right: 15px;
+            top: 10px;
             font-size: 13px;
             font-weight: bold;
             border-radius: 2px;
@@ -149,6 +151,16 @@
 
 
 @media screen and (min-width: 768px) {
+
+    .function {
+        display: flex;
+        justify-content: space-around;
+
+        &__list {
+            width: 25%;
+        }
+    }
+
     .restaurants {
         display: flex;
     }
@@ -176,16 +188,5 @@
     .logo__footer {
         display: flex;
         justify-content: center;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .function {
-        display: flex;
-        justify-content: space-around;
-
-        &__list {
-            width: 25%;
-        }
     }
 }

@@ -311,6 +311,7 @@ p {
   font-size: 16px;
   border-radius: 30px;
   box-shadow: 0px 5px 6px 0px;
+  cursor: pointer;
 }
 .btn:hover {
   opacity: 0.9;
@@ -356,6 +357,9 @@ footer li a {
   color: #FFF;
   line-height: 2px;
   font-size: 12px;
+}
+footer li a:hover {
+  color: #9356DC;
 }
 
 .logo__footer {
@@ -408,6 +412,7 @@ footer li a {
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0px 5px 5px 2px rgb(240, 240, 240);
+  cursor: pointer;
 }
 .function__list:hover {
   background-color: #e6d7f8;
@@ -421,6 +426,7 @@ footer li a {
   text-align: center;
   font-size: 12px;
   margin-left: -25px;
+  padding: 5px 2px 0px 2px;
   background-color: #9356DC;
   color: #FFF;
   height: 20px;
@@ -431,7 +437,7 @@ footer li a {
   color: rgb(137, 137, 137);
 }
 .function__list--txt {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -460,8 +466,8 @@ footer li a {
 }
 .card__img--new {
   position: absolute;
-  right: 20px;
-  top: 15px;
+  right: 15px;
+  top: 10px;
   font-size: 13px;
   font-weight: bold;
   border-radius: 2px;
@@ -493,6 +499,13 @@ footer li a {
 }
 
 @media screen and (min-width: 768px) {
+  .function {
+    display: flex;
+    justify-content: space-around;
+  }
+  .function__list {
+    width: 25%;
+  }
   .restaurants {
     display: flex;
   }
@@ -515,15 +528,6 @@ footer li a {
   .logo__footer {
     display: flex;
     justify-content: center;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .function {
-    display: flex;
-    justify-content: space-around;
-  }
-  .function__list {
-    width: 25%;
   }
 }
 .banner img {
