@@ -1,5 +1,4 @@
 
-
 #home {
     text-align: center;
 }
@@ -88,6 +87,7 @@
 .card {
     display: flex;
     flex-direction: column;
+    position: relative;
     height: 230px;
     width: 100%;
     background-color: $background-color3;
@@ -105,13 +105,15 @@
         }
 
         &--new {
-            display: none;
-            top: -150px;
-            left: 230px;
-            font-size: 12px;
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 13px;
+            font-weight: bold;
+            border-radius: 2px;
             background-color: $color-tertiary;
             color: $color-new;
-            padding: 6px;
+            padding: 6px 8px;
         }
     }
 

@@ -86,7 +86,7 @@
 
 .meal .fa-circle-check {
     position: relative;
-    transition: transform, .8s;
+    transition: transform, 1.5s;
 }
 
 .meal:hover .check_bloc {
@@ -99,10 +99,6 @@
 
 .meal:hover .meal__right p {
     margin-right: 0;
-}
-
-@media screen and (min-width: 768px) {
-    
 }
 
 
