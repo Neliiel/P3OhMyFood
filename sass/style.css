@@ -579,6 +579,7 @@ footer li a:hover {
   background-color: #FFF;
   border-radius: 10px;
   margin: 10px;
+  overflow: hidden;
   line-height: 4px;
 }
 .meal__left {
@@ -604,9 +605,9 @@ footer li a:hover {
   color: white;
   font-size: 20px;
   padding: 24px 18px;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 10px 10px 0px;
   position: relative;
-  right: -100px;
+  right: -70px;
   transition: 1s;
 }
 
@@ -616,7 +617,7 @@ footer li a:hover {
 }
 
 .meal:hover .check_bloc {
-  right: -15px;
+  right: -10px;
 }
 
 .meal:hover .fa-circle-check {
@@ -625,4 +626,9 @@ footer li a:hover {
 
 .meal:hover .meal__right p {
   margin-right: 0;
+}
+
+.order {
+  text-align: center;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
