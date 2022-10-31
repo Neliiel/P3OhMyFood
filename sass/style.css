@@ -288,6 +288,22 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -350,10 +366,11 @@ p {
 .header__menu {
   display: flex;
   align-items: center;
-  gap: 15%;
+  justify-content: left;
 }
 .header__menu i {
-  padding-left: 20px;
+  padding-left: 10px;
+  align-items: left;
 }
 
 footer {
@@ -382,6 +399,35 @@ footer li a:hover {
   font-family: "Shrikhand", sans-serif;
   color: #FFF;
   padding-left: 40px;
+}
+
+.loader {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: none;
+}
+
+.ring {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 #FF79DA;
+  background: transparent;
+  -webkit-animation: loader 2s linear infinite;
+          animation: loader 2s linear infinite;
+}
+
+.text {
+  font-family: "Shrikhand", sans-serif;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  line-height: 300px;
+  font-size: 24px;
+  background: transparent;
 }
 
 #home {
@@ -565,6 +611,14 @@ footer li a:hover {
   font-family: "Shrikhand", sans-serif;
   margin: 0px 15px;
 }
+.menu h3 {
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.menu h3 span {
+  border-bottom: 3px solid #99E2D0;
+}
 
 .fa-heart {
   position: relative;
@@ -578,14 +632,6 @@ footer li a:hover {
 
 .bloc {
   padding: 10px 0px;
-}
-.bloc h3 {
-  padding-left: 15px;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-.bloc h3 span {
-  border-bottom: 3px solid #99E2D0;
 }
 
 .meal {
@@ -718,4 +764,24 @@ footer li a:hover {
 .order {
   text-align: center;
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu h3 {
+    text-align: center;
+  }
+  .bloc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .meal {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .meal {
+    width: 30%;
+  }
 }/*# sourceMappingURL=style.css.map */

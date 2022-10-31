@@ -9,9 +9,10 @@
 .header__menu {
     display: flex;
     align-items: center;
-    gap: 15%;
+    justify-content: left;
 
     i{
-        padding-left: 20px;
+        padding-left: 10px;
+        align-items: left;
     }
 }

@@ -1,3 +1,30 @@
+.loader {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: none;
+}
+
+.ring {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 0 $color-secondary;
+    background: transparent;
+    animation: loader 2s linear infinite;
+}
+
+.text {
+    font-family: 'Shrikhand', sans-serif;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 300px;
+    font-size: 24px;
+    background: transparent;
+}
 
 #home {
     text-align: center;
