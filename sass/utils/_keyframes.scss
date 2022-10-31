@@ -135,3 +135,12 @@
         font-weight: bold;
     }
 }
+
+@keyframes reveal_txt {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

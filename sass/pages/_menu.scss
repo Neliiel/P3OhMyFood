@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    opacity: 0;
     background-color: $background-color3;
     border-radius: 10px;
     margin: 10px;
@@ -72,6 +73,56 @@
             transition: 1s;
         }
     }
+}
+
+.meal__enter:nth-of-type(1) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: .6s;
+}
+
+.meal__enter:nth-of-type(2) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: .8s;
+}
+
+.meal__enter:nth-of-type(3) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 1s;
+}
+
+.meal__enter:nth-of-type(4) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 1.2s;
+}
+
+.meal__dish:nth-of-type(1) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 1.2s;
+}
+
+.meal__dish:nth-of-type(2) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 1.4s;
+}
+
+.meal__dish:nth-of-type(3) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 1.6s;
+}
+
+.meal__dessert:nth-of-type(1) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 1.8s;
+}
+
+.meal__dessert:nth-of-type(2) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 2s;
+}
+
+.meal__dessert:nth-of-type(3) {
+    animation: reveal_txt 2s forwards;
+    animation-delay: 2.2s;
 }
 
 .check_bloc {
