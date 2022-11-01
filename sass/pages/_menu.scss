@@ -77,37 +77,37 @@
 
 .meal__enter:nth-of-type(1) {
     animation: reveal_txt 2s forwards;
-    animation-delay: .6s;
+    animation-delay: .2s;
 }
 
 .meal__enter:nth-of-type(2) {
     animation: reveal_txt 2s forwards;
-    animation-delay: .8s;
+    animation-delay: .4s;
 }
 
 .meal__enter:nth-of-type(3) {
     animation: reveal_txt 2s forwards;
-    animation-delay: 1s;
+    animation-delay: .6s;
 }
 
 .meal__enter:nth-of-type(4) {
     animation: reveal_txt 2s forwards;
-    animation-delay: 1.2s;
+    animation-delay: .8s;
 }
 
 .meal__dish:nth-of-type(1) {
     animation: reveal_txt 2s forwards;
-    animation-delay: 1.2s;
+    animation-delay: 1s;
 }
 
 .meal__dish:nth-of-type(2) {
     animation: reveal_txt 2s forwards;
-    animation-delay: 1.4s;
+    animation-delay: 1.2s;
 }
 
 .meal__dish:nth-of-type(3) {
     animation: reveal_txt 2s forwards;
-    animation-delay: 1.6s;
+    animation-delay: 1.4s;
 }
 
 .meal__dessert:nth-of-type(1) {
@@ -176,6 +176,7 @@
         width: 40%;
     }
 }
+
 
 @media screen and (min-width: 1024px) {
     .meal {

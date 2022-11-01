@@ -363,14 +363,13 @@ p {
   display: none;
 }
 
-.header__menu {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
 .header__menu i {
-  padding-left: 10px;
+  position: absolute;
+  padding: 10px 20px;
   align-items: left;
+}
+.header__menu h1 {
+  text-align: center;
 }
 
 footer {
@@ -666,50 +665,50 @@ footer li a:hover {
 .meal__enter:nth-of-type(1) {
   -webkit-animation: reveal_txt 2s forwards;
           animation: reveal_txt 2s forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.meal__enter:nth-of-type(2) {
+  -webkit-animation: reveal_txt 2s forwards;
+          animation: reveal_txt 2s forwards;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.meal__enter:nth-of-type(3) {
+  -webkit-animation: reveal_txt 2s forwards;
+          animation: reveal_txt 2s forwards;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
 
-.meal__enter:nth-of-type(2) {
+.meal__enter:nth-of-type(4) {
   -webkit-animation: reveal_txt 2s forwards;
           animation: reveal_txt 2s forwards;
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
 }
 
-.meal__enter:nth-of-type(3) {
+.meal__dish:nth-of-type(1) {
   -webkit-animation: reveal_txt 2s forwards;
           animation: reveal_txt 2s forwards;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-.meal__enter:nth-of-type(4) {
-  -webkit-animation: reveal_txt 2s forwards;
-          animation: reveal_txt 2s forwards;
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
-}
-
-.meal__dish:nth-of-type(1) {
-  -webkit-animation: reveal_txt 2s forwards;
-          animation: reveal_txt 2s forwards;
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
-}
-
 .meal__dish:nth-of-type(2) {
   -webkit-animation: reveal_txt 2s forwards;
           animation: reveal_txt 2s forwards;
-  -webkit-animation-delay: 1.4s;
-          animation-delay: 1.4s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
 .meal__dish:nth-of-type(3) {
   -webkit-animation: reveal_txt 2s forwards;
           animation: reveal_txt 2s forwards;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
 }
 
 .meal__dessert:nth-of-type(1) {

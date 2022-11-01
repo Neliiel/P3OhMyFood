@@ -7,12 +7,14 @@
 }
 
 .header__menu {
-    display: flex;
-    align-items: center;
-    justify-content: left;
 
     i{
-        padding-left: 10px;
+        position: absolute;
+        padding: 10px 20px;
         align-items: left;
+    }
+
+    h1 {
+        text-align: center;
     }
 }
