@@ -367,6 +367,7 @@ p {
   position: absolute;
   padding: 10px 20px;
   align-items: left;
+  color: black;
 }
 .header__menu h1 {
   text-align: center;
@@ -402,8 +403,10 @@ footer li a:hover {
 
 .loader {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  height: 150%;
+  width: 100%;
+  background: white;
+  z-index: 1;
   display: none;
 }
 
@@ -596,12 +599,16 @@ footer li a:hover {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+  position: relative;
+  z-index: 1;
 }
 
 .menu {
   margin-top: -20px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 40px 40px 0px 0px;
   background-color: rgb(248, 248, 248);
+  position: relative;
+  z-index: 2;
 }
 .menu__title {
   display: flex;
@@ -631,6 +638,7 @@ footer li a:hover {
 
 .bloc {
   padding: 10px 0px;
+  white-space: nowrap;
 }
 
 .meal {
@@ -646,9 +654,13 @@ footer li a:hover {
 }
 .meal__left {
   margin: 0px 10px;
+  width: 70%;
 }
 .meal__left p {
   font-size: 13px;
+  padding: 10px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .meal__right {
   display: flex;
