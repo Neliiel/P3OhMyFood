@@ -7,7 +7,7 @@
 }
 
 .menu {
-    margin-top: -20px;
+    margin-top: -50px;
     border-radius: 40px 40px 0px 0px;
     background-color: $background-color2;
     position: relative;
@@ -62,13 +62,19 @@
 
     &__left {
         margin: 0px 10px;
-        width: 70%;
+        width: 60%;
+
+        h4 {
+            padding: 5px 0px 8px 0px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
         p {
-        font-size: 13px;
-        padding: 10px 0px;
-        overflow: hidden;
-        text-overflow: ellipsis;
+            font-size: 13px;
+            padding: 6px 0px;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     }
 
@@ -140,7 +146,7 @@
     background-color: $color-tertiary;
     color: white;
     font-size: 20px;
-    padding: 24px 18px;
+    padding: 36px 20px;
     border-radius: 0px 10px 10px 0px;
     position: relative;
     right: -70px;
@@ -172,8 +178,11 @@
 
 
 @media screen and (min-width: 768px) {
-    .menu h3 {
-        text-align: center;
+    .menu {
+
+        h3 {
+            text-align: center;
+        }
     }
     
     .bloc {
@@ -190,6 +199,19 @@
 
 
 @media screen and (min-width: 1024px) {
+    .banner img {
+        height: 300px;
+    }
+
+    .menu__title {
+        justify-content: center;
+        gap: 20px;
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+
     .meal {
         width: 30%
     }
