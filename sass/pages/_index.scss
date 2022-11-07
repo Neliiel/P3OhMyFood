@@ -1,15 +1,20 @@
 .loader {
-    position: absolute;
+    position: fixed;
+    margin-top: -25px;
     height: 150%;
     width: 100%;
-    background: white;
+    background: $background-color1;
     z-index: 1;
-    display: none;
+    animation: loader_off 1s ease-in-out forwards;
+    animation-delay: 3s;
 }
 
 .ring {
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    left: 30%;
     border-radius: 50%;
     box-shadow: 0 4px 0 $color-secondary;
     background: transparent;
@@ -18,13 +23,15 @@
 
 .text {
     font-family: 'Shrikhand', sans-serif;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
+    top: 16%;
+    left: 35%;
     border-radius: 50%;
     position: absolute;
     text-align: center;
     line-height: 300px;
-    font-size: 24px;
+    font-size: 26px;
     background: transparent;
 }
 
@@ -181,6 +188,14 @@
 
 @media screen and (min-width: 768px) {
 
+    .ring {
+        left: 45%;
+    }
+
+    .text {
+        left: 48%;
+    }
+
     .function {
         display: flex;
         justify-content: space-around;
@@ -217,5 +232,16 @@
     .logo__footer {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .ring {
+        left: 44%;
+    }
+
+    .text {
+        left: 46%;
     }
 }

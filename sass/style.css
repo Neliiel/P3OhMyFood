@@ -304,6 +304,28 @@
     transform: rotate(360deg);
   }
 }
+@-webkit-keyframes loader_off {
+  0% {
+    opacity: 1;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+    height: 0;
+  }
+}
+@keyframes loader_off {
+  0% {
+    opacity: 1;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+    height: 0;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -402,17 +424,24 @@ footer li a:hover {
 }
 
 .loader {
-  position: absolute;
+  position: fixed;
+  margin-top: -25px;
   height: 150%;
   width: 100%;
-  background: white;
+  background: rgb(240, 240, 240);
   z-index: 1;
-  display: none;
+  -webkit-animation: loader_off 1s ease-in-out forwards;
+          animation: loader_off 1s ease-in-out forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .ring {
-  width: 300px;
-  height: 300px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 20%;
+  left: 30%;
   border-radius: 50%;
   box-shadow: 0 4px 0 #FF79DA;
   background: transparent;
@@ -422,13 +451,15 @@ footer li a:hover {
 
 .text {
   font-family: "Shrikhand", sans-serif;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
+  top: 16%;
+  left: 35%;
   border-radius: 50%;
   position: absolute;
   text-align: center;
   line-height: 300px;
-  font-size: 24px;
+  font-size: 26px;
   background: transparent;
 }
 
@@ -563,6 +594,12 @@ footer li a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .ring {
+    left: 45%;
+  }
+  .text {
+    left: 48%;
+  }
   .function {
     display: flex;
     justify-content: space-around;
@@ -592,6 +629,14 @@ footer li a:hover {
   .logo__footer {
     display: flex;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ring {
+    left: 44%;
+  }
+  .text {
+    left: 46%;
   }
 }
 .banner img {
