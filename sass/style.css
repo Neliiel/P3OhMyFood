@@ -388,7 +388,7 @@ p {
 .header__menu i {
   position: absolute;
   padding: 10px 20px;
-  align-items: left;
+  align-items: flex-start;
   color: black;
 }
 .header__menu h1 {
