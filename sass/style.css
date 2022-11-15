@@ -423,6 +423,20 @@ footer li a:hover {
   padding-left: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  footer nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .logo__footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+/*LOADER*/
 .loader {
   position: fixed;
   margin-top: -25px;
@@ -463,6 +477,7 @@ footer li a:hover {
   background: transparent;
 }
 
+/*PAGE D'ACCUEIL*/
 #home {
   text-align: center;
 }
@@ -618,17 +633,6 @@ footer li a:hover {
   }
   .card__txt {
     line-height: 20px;
-  }
-  footer nav ul {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  .logo__footer {
-    display: flex;
-    justify-content: center;
   }
 }
 @media screen and (min-width: 1024px) {

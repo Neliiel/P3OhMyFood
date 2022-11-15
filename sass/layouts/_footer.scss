@@ -29,3 +29,19 @@ footer {
     color: $color-footer;
     padding-left: 40px;
 }
+
+@media screen and (min-width: 768px) {
+
+    footer nav ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .logo__footer {
+        display: flex;
+        justify-content: center;
+    }
+}

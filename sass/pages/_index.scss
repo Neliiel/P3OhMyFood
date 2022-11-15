@@ -1,3 +1,5 @@
+/*LOADER*/
+
 .loader {
     position: fixed;
     margin-top: -25px;
@@ -34,6 +36,8 @@
     font-size: 26px;
     background: transparent;
 }
+
+/*PAGE D'ACCUEIL*/
 
 #home {
     text-align: center;
@@ -219,19 +223,6 @@
         &__txt {
             line-height: 20px;
         }
-    }
-
-    footer nav ul {
-        display: flex;
-        gap: 30px;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 20px;
-    }
-
-    .logo__footer {
-        display: flex;
-        justify-content: center;
     }
 }
 
