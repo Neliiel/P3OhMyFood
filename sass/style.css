@@ -703,7 +703,9 @@ footer li a:hover {
 }
 .meal__left {
   margin: 0px 10px;
-  width: 60%;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .meal__left h4 {
   padding: 5px 0px 8px 0px;
@@ -818,12 +820,12 @@ footer li a:hover {
   right: -10px;
 }
 
-.meal:hover .fa-circle-check {
-  transform: rotate(-360deg);
-}
-
 .meal:hover .meal__right p {
   margin-right: 0;
+}
+
+.meal:hover .fa-circle-check {
+  transform: rotate(-360deg);
 }
 
 .order {
