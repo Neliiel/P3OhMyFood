@@ -455,7 +455,7 @@ footer li a:hover {
   width: 200px;
   height: 200px;
   top: 20%;
-  left: 30%;
+  left: 20%;
   border-radius: 50%;
   box-shadow: 0 4px 0 #FF79DA;
   background: transparent;
@@ -467,8 +467,8 @@ footer li a:hover {
   font-family: "Shrikhand", sans-serif;
   width: 100px;
   height: 100px;
-  top: 15%;
-  left: 35%;
+  top: 12%;
+  left: 27%;
   border-radius: 50%;
   position: absolute;
   text-align: center;
@@ -610,10 +610,10 @@ footer li a:hover {
 
 @media screen and (min-width: 768px) {
   .ring {
-    left: 45%;
+    left: 40%;
   }
   .text {
-    left: 48%;
+    left: 43%;
   }
   .function {
     display: flex;
