@@ -1,9 +1,15 @@
+
+
 /*LOADER*/
 
 .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    margin-top: -25px;
-    height: 150%;
+    margin-top: -22px;
+    padding-bottom: 2px;
+    height: 100%;
     width: 100%;
     background: $background-color1;
     z-index: 1;
@@ -12,11 +18,11 @@
 }
 
 .ring {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 200px;
-    top: 20%;
-    left: 20%;
     border-radius: 50%;
     box-shadow: 0 4px 0 $color-secondary;
     background: transparent;
@@ -24,11 +30,12 @@
 }
 
 .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Shrikhand', sans-serif;
     width: 100px;
     height: 100px;
-    top: 12%;
-    left: 27%;
     border-radius: 50%;
     position: absolute;
     text-align: center;
@@ -192,14 +199,6 @@
 
 @media screen and (min-width: 768px) {
 
-    .ring {
-        left: 40%;
-    }
-
-    .text {
-        left: 43%;
-    }
-
     .function {
         display: flex;
         justify-content: space-around;
@@ -223,17 +222,5 @@
         &__txt {
             line-height: 20px;
         }
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
-    .ring {
-        left: 44%;
-    }
-
-    .text {
-        left: 46%;
-        top: 15%;
     }
 }
