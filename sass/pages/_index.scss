@@ -224,3 +224,9 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .loader {
+       max-width: 1600px;
+    }
+}

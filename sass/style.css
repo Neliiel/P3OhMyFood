@@ -349,6 +349,13 @@ p {
   font-size: 14px;
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    max-width: 1600px;
+    margin: auto;
+    padding: auto;
+  }
+}
 @font-face {
   font-family: "Shrikhand";
   src: url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
@@ -398,6 +405,7 @@ p {
 footer {
   background-color: rgb(39, 38, 38);
   padding-top: 20px;
+  padding-bottom: 5px;
 }
 footer li {
   display: flex;
@@ -632,6 +640,11 @@ footer li a:hover {
   }
   .card__txt {
     line-height: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .loader {
+    max-width: 1600px;
   }
 }
 .banner img {
